@@ -13,7 +13,7 @@ int main(){
     printf("ingresa la primera caden\n");
     fgets(str1, 100, stdin);
 
-    printf("ingresa la segunda cadena\n")
+    printf("ingresa la segunda cadena\n");
     fgets(str2, 100, stdind);
 
     if (strcmp(str1, str2)==0){
