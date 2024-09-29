@@ -8,12 +8,12 @@ programa que recibe dos cadenas y compara si son iguales o no
 #include <string.h>
 
 int main(){
-    char str[100]
+    char str[100];
 
     printf("ingresa la primera caden\n");
     fgets(str, 100, stdin);
 
-    swith(str[0])
+    switch(str[0])
     {
         case 'a': case 'A':
             printf("la cadena comienza en a\n");
